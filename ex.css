@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: lightpink;
+}
+
+
+#btn {
+    background-color: lawngreen;
+    border: none;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+textarea {
+    height: 200px;
+    width: 200px;
+    background-color: lightcoral;
+    outline: none;
+    padding: 40px;
+    color: lightyellow;
+    box-shadow: 1px 2px 10px 2px grey;
+    text-decoration: wavy;
+}
+
+
+.enter {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 250px;
+    width: 250px;
+    display: none;
+}
+.enter.active{
+    display: flex;
+}
+.close {
+    text-align: center;
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(218, 210, 210);
+    border-radius: 20px;
+    position: absolute;
+    right: 80px;
+    top: 7px;
+}
+.checked {
+    text-align: center;
+    /* margin: 0;
+    padding: 5px; */
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(218, 210, 210);
+    border-radius: 20px;
+    position: absolute;
+    right: 55px;
+    top: 7px;
+}
+
+
+.back {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+    overflow-wrap: break-word;
+    
+}
+
+div h2:hover{
+    transform: scale(1.1);
+}
+
+h2 {
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    /* text-overflow: ellipsis; */
+    color: khaki;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    user-select: none;
+}
